@@ -8,23 +8,7 @@ function Header() {
     <div className="bg-orange-600 p-4">
       <div className="flex justify-between items-center mt-4 max-w-[1240px]  mx-auto">
         <div className="text-3xl font-bold">Tech-Z</div>
-{/* 
-        {
-           toggle ? 
-            <div className="md:hidden block" onClick={() => {setToggle(!toggle)}}>
-               <a href="#" className="text-3xl text-white ">
-                ✕
-               </a>
-            </div>
-             :
-            <div className="md:hidden block" onClick={() => {setToggle(!toggle)}}>
-              <a href="#" className="text-3xl text-whiteborder text-white" >
-                &#8801;
-               </a>
-            </div>
-        } */}
-
-            <div className="md:hidden flex justify-center h-[50px] w-8" >
+          <div className="md:hidden flex justify-center h-[50px] w-8" >
                 {
                   toggle ?
                     <a href="#" className="text-3xl text-white" onClick={() => {setToggle(!toggle)}}>
@@ -35,10 +19,12 @@ function Header() {
                         &#8801;
                     </a>
                 }
-            </div>
+          </div>
         
 
-        <ul className="md:hidden fixed bg-black left-[-100%] top-[88px] w-full h-screen text-lg font-bold text-white cursor-pointer">
+        <ul className={`duration-500 md:hidden fixed bg-black top-[98px] w-full h-screen text-lg font-bold text-white cursor-pointer
+          ${ toggle ? 'left-[0]' : 'left-[-100%]' }  
+        `}>
           <li className="p-5">Home</li>
           <li className="p-5">About</li>
           <li className="p-5">Course</li>
