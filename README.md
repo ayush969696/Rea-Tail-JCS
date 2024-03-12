@@ -1,8 +1,18 @@
-# React + Vite
+# In this Project we use 
+> Vite Build Tool to install react js
+> tailwind-css
+> react-typed -> Effects
+> react-icons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Points Note :
+ <!-- <ul className='hidden md:flex gap-10 text-white cursor-pointer'>
+                <li>Home</li>
+                <li>About</li>
+                <li>Course</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul> -->
+ > flex apply till md then means above the md it will be flex below md it will became hidden means when it come to sm or less then md it will became hidden
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ > npm i react-icons -> React icons
