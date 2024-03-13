@@ -16,3 +16,4 @@
 
 
  > npm i react-icons -> React icons
+ > npm i react-typed --force  -> we are installing in forcefully here 
