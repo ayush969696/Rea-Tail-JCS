@@ -5,12 +5,12 @@ function Banner() {
   return (
     <div className="bg-orange-600 w-full py-[140px]">
       <div className="max-w-[1240px] mx-auto text-center font-bold mt-4">
-        <div className="text-2xl md:text-3xl mt-4">Learn With Us!</div>
-        <h2 className="text-white text-5xl md:text-7xl  mt-4">Grow With Us!</h2>
-        <div className="text-4xl md:text-[50px]  text-white mt-3">
+        <div className="text-2xl md:text-4xl mt-4">Learn With Us!</div>
+        <h2 className="text-white text-5xl md:text-7xl  mt-2">Grow With Us!</h2>
+        <div className="text-2xl md:text-[50px]  text-white mt-3">
           Learn 
           <ReactTyped
-            className="pl-4 text-black"
+            className="pl-3 text-black text-2xl md:text-[50px]"
             strings={[
               "Web Development",
               "App Development",
@@ -22,6 +22,7 @@ function Banner() {
           />
 
         </div>
+        <button className='bg-black text-white px-14 py-4 rounded text-xl mt-12'>Get Started</button>
       </div>
     </div>
   );
